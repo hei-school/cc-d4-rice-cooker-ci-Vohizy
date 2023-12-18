@@ -1,0 +1,28 @@
+version: 2.1
+
+jobs:
+  build:
+    docker:
+      - image: mcr.microsoft.com/dotnet/core/sdk:6.0-focal
+
+    steps:
+      - checkout
+
+      # Installer les dépendances et exécuter les tests
+      - run:
+          name: Install dependencies and run tests
+          command: |
+            dotnet restore
+            dotnet build
+            dotnet test
+
+      # Exécuter StyleCop
+      - run:
+          name: Run StyleCop
+          command: dotnet tool run dotnet-stylecop analyze --settings stylecop.json
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build
