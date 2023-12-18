@@ -8,8 +8,8 @@ This project is a simulation of a rice cooker's functionality. There are three f
 
 To get started, clone the repository and switch to either the C# ; C++ ; Dart or Go branch based on your preference:
 
-- [C# Branch (feature/C#)](https://github.com/hei-school/cc-d4-rice-cooker-ci-Vohizy/tree/feature/C#)
-- [C++ Branch (feature/C++)](https://github.com/hei-school/cc-d4-rice-cooker-ci-Vohizy/tree/feature/C++)
+- [C# Branch (feature/C#)](https://github.com/hei-school/cc-d4-rice-cooker-ci-Vohizy/tree/feature/C%23)
+- [C++ Branch (feature/C++)](https://github.com/hei-school/cc-d4-rice-cooker-ci-Vohizy/tree/feature/C%2B%2B)
 - [Dart Branch (feature/Dart)](https://github.com/hei-school/cc-d4-rice-cooker-ci-Vohizy/tree/feature/Dart)
 - [Go Branch (feature/Go)](https://github.com/hei-school/cc-d4-rice-cooker-ci-Vohizy/tree/feature/Go)
 
